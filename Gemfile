@@ -60,3 +60,4 @@ gem 'simple_form', '~> 4.0'
 gem 'devise'
 gem "paperclip", "~> 6.0.0"
 gem 'masonry-rails'
+gem 'acts_as_votable', '~> 0.11.1'
