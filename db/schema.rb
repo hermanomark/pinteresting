@@ -25,6 +25,7 @@ ActiveRecord::Schema.define(version: 20180527042449) do
     t.string "image_content_type"
     t.integer "image_file_size"
     t.datetime "image_updated_at"
+    t.index ["user_id"], name: "index_pins_on_user_id"
   end
 
   create_table "users", force: :cascade do |t|
